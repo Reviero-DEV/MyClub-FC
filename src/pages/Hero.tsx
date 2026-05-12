@@ -1,0 +1,37 @@
+import React from "react";
+import { FaArrowRight } from "react-icons/fa";
+import imgHero from '../assets/img-hero.webp';
+
+export const Hero: React.FC = () => {
+  return (
+    <section 
+      className="flex min-h-[75vh] w-full items-center py-16 px-6 md:px-12 bg-cover bg-center bg-no-repeat relative ba-"
+      style={{ 
+        backgroundImage: `linear-gradient(to right, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.4)), url(${imgHero})` 
+      }}
+
+    >
+      <div className="max-w-4xl mx-auto md:mx-0 relative z-10">
+        <h1 className="text-4xl md:text-6xl font-bold leading-tight text-white">
+          Raça, amor<br />
+          <span className="text-red-600">e paixão</span>
+        </h1>
+        
+        <p className="mt-6 text-lg md:text-xl leading-relaxed max-w-2xl text-slate-200">
+          DA FÁBRICA PARA O MUNDO: TRADIÇÃO E GLÓRIA!
+        </p>
+
+        <div className="mt-10 flex flex-col sm:flex-row items-start sm:items-center gap-6">
+          <button className="w-full sm:w-auto bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-full font-bold transition-all shadow-lg shadow-red-600/20">
+            Seja Sócio
+          </button>
+
+          <a href="#missao" className="group flex items-center gap-2 font-medium transition-colors text-slate-200 hover:text-red-500">
+            Conheça o clube 
+            <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+};
