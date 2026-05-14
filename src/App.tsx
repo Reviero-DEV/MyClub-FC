@@ -1,6 +1,7 @@
 import Header from "./components/Header"
 import { Hero } from "./pages/Hero"
 import News from "./pages/News"
+import Footer from "./components/footer"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Hero />
         <News />
       </main>
+      <Footer />
     </>
   )
 }
