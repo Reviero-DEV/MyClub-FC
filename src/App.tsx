@@ -2,6 +2,7 @@ import Header from "./components/Header"
 import { Hero } from "./pages/Hero"
 import News from "./pages/News"
 import MembershipBanner from "./pages/MembershipBanner"
+import MatchCenter from "./pages/matchCenter"
 import Partners from "./pages/partners"
 import Footer from "./components/footer"
 
@@ -12,6 +13,7 @@ function App() {
       <main className="bg-neutral-950 text-white flex flex-col items-center overflow-hidden">
         <Hero />
         <News />
+        <MatchCenter />
         <MembershipBanner />
         <Partners />
       </main>
