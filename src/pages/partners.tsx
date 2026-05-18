@@ -20,13 +20,13 @@ export default function Partners() {
           Nossos Parceiros
         </h2>
         
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:flex md:flex-row md:justify-center items-center justify-items-center gap-6 md:gap-10 w-full">
+        <div className="grid sm:grid-flow-col grid-rows-2 min-[1081px]:grid-rows-1 max-sm:grid-cols-2 gap-8">
           {partners.map((partner, index) => (
             <img
               key={index}
               src={partner.src}
               alt={partner.name}
-              className="h-12 w-auto max-w-[120px] md:max-w-[150px] object-contain invert brightness-0 content-stretch"
+              className="h-12 w-auto max-w-30 md:max-w-37.5 object-contain invert brightness-0 opacity-50 content-stretch"
             />
           ))}
         </div>

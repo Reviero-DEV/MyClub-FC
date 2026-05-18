@@ -14,7 +14,7 @@ export default function PostCard({ image, icon, date, title, desc, link }: CardP
     <div className="flex flex-col justify-between overflow-hidden rounded-xl border border-red-700 max-w-sm h-105 bg-neutral-950 transition-all hover:shadow-lg">
       
       {image && (
-        <div className="relative w-full h-48 overflow-hidden bg-neutral-900 ">
+        <div className="relative w-full h-[60%] overflow-hidden bg-neutral-900 ">
           <img 
             src={image} 
             alt={title || "Imagem da notícia"} 
@@ -28,7 +28,7 @@ export default function PostCard({ image, icon, date, title, desc, link }: CardP
         </div>
       )}
 
-      <div className="p-4 flex flex-col flex-1 justify-between text-left">
+      <div className="p-4 flex flex-col h-[40%] flex-1 justify-between text-left">
         
         <div className="space-y-2">
           {date && (

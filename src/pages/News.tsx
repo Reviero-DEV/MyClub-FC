@@ -40,7 +40,7 @@ export default function News() {
   return (
     <section className="flex flex-col max-w-7xl gap-3 p-5">
       <div className="flex justify-between">
-        <h2>Nossos Programas</h2>
+        <h2>Noticias</h2>
         <p className="flex items-center gap-1">
           Ler Mais <FaArrowRight />
         </p>

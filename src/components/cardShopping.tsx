@@ -14,7 +14,7 @@ export default function CardShopping({ image, title, price, url }: ItemShopphing
                 <img src={image} alt={title} className="w-full h-full object-cover object-center transition-transform duration-300 hover:scale-105" />
             )}
 
-            <div className="flex flex-col p-4">
+            <div className="flex flex-col p-4 min-w-2xs">
                 {(title || price) && (<div className="flex flex-col text-center justify-between text-gray-400">
                     {title && (
                         <h4>{title}</h4>
