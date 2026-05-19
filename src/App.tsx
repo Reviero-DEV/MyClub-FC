@@ -3,6 +3,7 @@ import { Hero } from "./pages/Hero"
 import News from "./pages/News"
 import MembershipBanner from "./pages/MembershipBanner"
 import MatchCenter from "./pages/matchCenter"
+import ShoppingItems from "./pages/shopping"
 import Partners from "./pages/partners"
 import Footer from "./components/footer"
 
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <News />
         <MatchCenter />
+        <ShoppingItems />
         <MembershipBanner />
         <Partners />
       </main>
