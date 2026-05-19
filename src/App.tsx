@@ -4,6 +4,7 @@ import News from "./pages/News"
 import MembershipBanner from "./pages/MembershipBanner"
 import MatchCenter from "./pages/matchCenter"
 import ShoppingItems from "./pages/shopping"
+import Stadium from "./pages/infoStadium"
 import Partners from "./pages/partners"
 import Footer from "./components/footer"
 
@@ -16,6 +17,7 @@ function App() {
         <News />
         <MatchCenter />
         <ShoppingItems />
+        <Stadium />
         <MembershipBanner />
         <Partners />
       </main>
