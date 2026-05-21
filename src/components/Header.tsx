@@ -3,7 +3,7 @@ import logo from '../assets/logo.webp';
 
 export const Header: React.FC = () => {
   return (
-    <header className="w-full bg-neutral-950 shadow-md p-7">
+    <header className="w-full bg-neutral-950 shadow-md">
       <div className="container mx-auto flex items-center justify-between px-6">
 
         <div className="shrink-0">
@@ -22,7 +22,7 @@ export const Header: React.FC = () => {
           </nav>
           <button className='block font-bold text-2xl text-white md:hidden hover:text-red-600 cursor-pointer transition'>☰</button>
 
-          <button className="flex items-center gap-2 bg-red-600 text-white px-5 py-2 rounded-full font-bold hover:bg-red-700 transition shadow-lg">
+          <button className="flex items-center cursor-pointer gap-2 bg-red-600 text-white px-5 py-2 rounded-full font-bold hover:bg-red-700 transition shadow-lg">
             Seja Sócio
           </button>
         </div>

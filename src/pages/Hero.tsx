@@ -4,10 +4,10 @@ import imgHero from '../assets/img-hero.webp';
 
 export const Hero: React.FC = () => {
   return (
-    <section 
+    <section
       className="flex min-h-[75vh] w-full items-center py-16 px-6 md:px-12 bg-cover bg-center bg-no-repeat relative ba-"
-      style={{ 
-        backgroundImage: `linear-gradient(to right, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.4)), url(${imgHero})` 
+      style={{
+        backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(15, 23, 42, 0.4)), url(${imgHero})`
       }}
 
     >
@@ -22,7 +22,7 @@ export const Hero: React.FC = () => {
         </p>
 
         <div className="mt-10 flex flex-col sm:flex-row items-start sm:items-center gap-6">
-          <button className="w-full sm:w-auto bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-full font-bold transition-all shadow-lg shadow-red-600/20">
+          <button className="w-full cursor-pointer sm:w-auto bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-full font-bold transition-all shadow-lg shadow-red-600/20">
             Seja Sócio
           </button>
 

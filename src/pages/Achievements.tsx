@@ -50,7 +50,7 @@ export default function Achievements() {
         <h2 className="text-xl font-bold uppercase tracking-widest text-gray-100">Nossas Conquistas</h2>
         <p>Nossa historia sendo escrita</p>
 
-        <div className="grid sm:grid-flow-col grid-rows-2 min-[1081px]:grid-rows-1 max-sm:grid-cols-2 gap-8">
+        <div className="grid sm:grid-flow-col pt-2 grid-rows-2 min-[1081px]:grid-rows-1 max-sm:grid-cols-2 gap-8">
           {conquistasClube.map((item, index) => (
             <TabTrophies
               key={index}

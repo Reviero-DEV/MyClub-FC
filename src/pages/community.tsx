@@ -35,8 +35,8 @@ const services = [
 export default function Community() {
     return (
         <section className="overflow-hidden w-full mx-auto py-5 p-5 bg-neutral-950">
-            <div className="flex flex-col items-center max-inline-svw w-full max-w-7xl gap-3">
-                <h2 className="text-xl font-bold uppercase tracking-widest text-gray-100">Clube e Comunidade</h2>
+            <div className="flex flex-col items-center mx-auto w-full gap-3">
+                <h2 className="text-xl font-bold uppercase tracking-widest max-w-7xl text-gray-100">Clube e Comunidade</h2>
                 <div className="flex gap-5 overflow-y-auto pb-3 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-transparent hover:scrollbar-thumb-zinc-800">
                     {services.map((item, index) => (
                         <PostCard

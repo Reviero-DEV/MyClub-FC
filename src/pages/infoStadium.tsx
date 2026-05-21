@@ -16,10 +16,10 @@ const stadiumDetails: StadiumInfo[] = [
 
 export default function Stadium() {
   return (
-    <section className="w-full bg-[#0a0a0a] text-white py-12">
-      <div className="grid grid-cols-1 md:grid-cols-2 max-w-7xl gap-3 p-5 mx-auto items-center">
-        
-        <div className="p-3">
+    <section className="w-full bg-[#0a0a0a] text-white py-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 max-w-7xl gap-3 mx-auto items-center">
+    
+        <div className="px-5">
           <div className="relative overflow-hidden rounded-xl border border-zinc-800 group">
             <img 
               src={imageStadium} 

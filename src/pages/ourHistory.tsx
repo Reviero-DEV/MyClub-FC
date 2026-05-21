@@ -16,7 +16,7 @@ export default function OurHistory() {
               Nossa galeria pesada reflete esse orgulho, repleta de grandes conquistas continentais,
               títulos nacionais, copas e dezenas de taças estaduais que eternizam nosso manto na história do esporte.
             </p>
-            <button className="mt-2 w-max bg-red-600 hover:bg-red-700 text-white font-bold text-xs uppercase tracking-widest px-6 py-3 transition-colors rounded">Conheça nossa historia</button>
+            <button className="mt-2 cursor-pointer w-max bg-red-600 hover:bg-red-700 text-white font-bold text-xs uppercase tracking-widest px-6 py-3 transition-colors rounded">Conheça nossa historia</button>
           </div>
           <div className="relative overflow-hidden rounded-xl border border-zinc-800 group">
             <img src={imgHistory} alt="Foto do clube em fundacao" className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 brightness-90 group-hover:brightness-100"/>

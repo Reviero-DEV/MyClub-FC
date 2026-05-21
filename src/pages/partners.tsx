@@ -14,7 +14,7 @@ const partners = [
 
 export default function Partners() {
   return (
-    <section className="w-full px-4 py-8 md:py-12">
+    <section className="w-full px-4 py-5 md:py-12">
       <div className="mx-auto max-w-5xl flex flex-col items-center gap-6 md:gap-8">
         <h2 className="text-xl md:text-2xl font-bold text-center">
           Nossos Parceiros

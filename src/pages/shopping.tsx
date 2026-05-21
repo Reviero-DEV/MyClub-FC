@@ -42,7 +42,7 @@ const listShoppingData: ItemShopphing[] = [
 
 export default function ShoppingItems() {
   return (
-    <section className="text-white py-16 w-full flex justify-center">
+    <section className="text-white py-5 w-full flex justify-center">
       <div className="flex flex-col w-full max-w-7xl gap-8 px-5">
 
         <div className="flex justify-between items-end border-b border-zinc-800 pb-4">
@@ -73,13 +73,13 @@ export default function ShoppingItems() {
               <p className="text-zinc-300 text-xs max-w-xs">
                 Tecnologia de alta performance com a identidade visual das nossas arquibancadas.
               </p>
-              <button className="mt-2 w-max bg-red-600 hover:bg-red-700 text-white font-bold text-xs uppercase tracking-widest px-6 py-3 transition-colors rounded">
+              <button className="mt-2 cursor-pointer w-max bg-red-600 hover:bg-red-700 text-white font-bold text-xs uppercase tracking-widest px-6 py-3 transition-colors rounded">
                 Ver Coleção
               </button>
             </div>
           </div>
 
-          <div className="h-100 md:h-full w-full relative">
+          <div className="flex items-center max-md:pt-5 h-100 md:h-full w-full relative">
             <div className="inset-0 flex gap-5 overflow-y-auto pb-3 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-transparent hover:scrollbar-thumb-zinc-800">
               {listShoppingData.map((item, index) => (
                 <div key={index} className="w-65 md:w-70 shrink-0 snap-start h-full pb-2">

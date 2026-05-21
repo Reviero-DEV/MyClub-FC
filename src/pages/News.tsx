@@ -38,15 +38,15 @@ const news = [
 
 export default function News() {
   return (
-    <section className="flex flex-col max-w-7xl gap-3 p-5">
+    <section className="flex flex-col max-w-7xl gap-5 p-5">
       <div className="flex justify-between">
-        <h2>Noticias</h2>
-        <p className="flex items-center gap-1">
-          Ler Mais <FaArrowRight />
+        <h2 className="text-xl font-bold uppercase tracking-widest text-gray-100">Noticias</h2>
+        <p className="flex items-center gap-1 group cursor-pointer font-medium transition-colors text-slate-200 hover:text-red-500">
+          Ler Mais <FaArrowRight className="group-hover:translate-x-1 transition-transform"/>
         </p>
       </div>
 
-      <div className="grid md:grid-cols-4 grid-cols-2 gap-2">
+      <div className="grid md:grid-cols-4 grid-cols-2 gap-5">
         {news.map((item) => (
           <PostCard
             key={item.id}

@@ -11,14 +11,14 @@ interface CardPost {
 
 export default function PostCard({ image, icon, date, title, desc, link }: CardPost) {
   return (
-    <div className="flex flex-col justify-between overflow-hidden rounded-xl border border-red-700 max-w-sm h-105 bg-neutral-950 transition-all hover:shadow-lg">
+    <div className="flex flex-col justify-between max-w-72 overflow-hidden rounded-xl border border-red-900 h-105 bg-neutral-950 transition-all hover:shadow-lg">
       
       {image && (
         <div className="relative w-full h-[60%] overflow-hidden bg-neutral-900 ">
           <img 
             src={image} 
             alt={title || "Imagem da notícia"} 
-            className="w-full h-full object-cover object-center transition-transform duration-300 hover:scale-105"
+            className="w-full h-full object-cover object-center transition-transform duration-300 hover:scale-105 brightness-80 group-hover:brightness-100"
           />
           {icon && (
             <div className="absolute top-3 left-3 bg-red-700 text-white p-2 rounded-lg shadow-md">
