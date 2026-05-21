@@ -29,21 +29,21 @@ export default function Footer() {
       ],
     },
     {
-      title: "PROGRAMAS",
-      links: [
-        { label: "Atividades", url: "#" },
-        { label: "Oficinas", url: "#" },
-        { label: "Saúde", url: "#" },
-      ],
-    },
+    title: "SÓCIO-TORCEDOR",
+    links: [
+      { label: "Planos e Vantagens", url: "#" },
+      { label: "Rede de Descontos", url: "#" },
+      { label: "Portal do Sócio", url: "#" },
+    ],
+  },
     {
-      title: "COMO AJUDAR",
-      links: [
-        { label: "Doe agora", url: "#" },
-        { label: "Seja voluntário", url: "#" },
-        { label: "Parcerias", url: "#" },
-      ],
-    },
+    title: "LOJA OFICIAL",
+    links: [
+      { label: "Camisas de Jogo", url: "#" },
+      { label: "Linha Treino", url: "#" },
+      { label: "Produtos Licenciados", url: "#" },
+    ],
+  },
   ];
 
   return (

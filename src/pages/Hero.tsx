@@ -13,12 +13,12 @@ export const Hero: React.FC = () => {
     >
       <div className="max-w-4xl mx-auto md:mx-0 relative z-10">
         <h1 className="text-4xl md:text-6xl font-bold leading-tight text-white">
-          Raça, amor<br />
-          <span className="text-red-600">e paixão</span>
+           Uma só voz. Um só<br />
+          <span className="text-red-600"> coração</span>
         </h1>
-        
+
         <p className="mt-6 text-lg md:text-xl leading-relaxed max-w-2xl text-slate-200">
-          DA FÁBRICA PARA O MUNDO: TRADIÇÃO E GLÓRIA!
+          A nossa força vem das arquibancadas. Junte-se a milhões de apaixonados, acompanhe as notícias oficiais em tempo real e mostre o seu orgulho de ser MyClub onde quer que você esteja.
         </p>
 
         <div className="mt-10 flex flex-col sm:flex-row items-start sm:items-center gap-6">
@@ -27,7 +27,7 @@ export const Hero: React.FC = () => {
           </button>
 
           <a href="#missao" className="group flex items-center gap-2 font-medium transition-colors text-slate-200 hover:text-red-500">
-            Conheça o clube 
+            Conheça o clube
             <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
           </a>
         </div>
