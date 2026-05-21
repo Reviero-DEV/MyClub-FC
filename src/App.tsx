@@ -6,6 +6,7 @@ import MatchCenter from "./pages/matchCenter"
 import ShoppingItems from "./pages/shopping"
 import Stadium from "./pages/infoStadium"
 import Achievements from "./pages/Achievements"
+import OurHistory from "./pages/ourHistory"
 import Partners from "./pages/partners"
 import Footer from "./components/footer"
 
@@ -20,6 +21,7 @@ function App() {
         <ShoppingItems />
         <Stadium />
         <Achievements />
+        <OurHistory />
         <MembershipBanner />
         <Partners />
       </main>
