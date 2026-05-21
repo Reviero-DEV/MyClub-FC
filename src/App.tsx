@@ -5,6 +5,7 @@ import MembershipBanner from "./pages/MembershipBanner"
 import MatchCenter from "./pages/matchCenter"
 import ShoppingItems from "./pages/shopping"
 import Stadium from "./pages/infoStadium"
+import Achievements from "./pages/Achievements"
 import Partners from "./pages/partners"
 import Footer from "./components/footer"
 
@@ -18,6 +19,7 @@ function App() {
         <MatchCenter />
         <ShoppingItems />
         <Stadium />
+        <Achievements />
         <MembershipBanner />
         <Partners />
       </main>
