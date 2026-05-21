@@ -7,6 +7,7 @@ import ShoppingItems from "./pages/shopping"
 import Stadium from "./pages/infoStadium"
 import Achievements from "./pages/Achievements"
 import OurHistory from "./pages/ourHistory"
+import Community from "./pages/community"
 import Partners from "./pages/partners"
 import Footer from "./components/footer"
 
@@ -23,6 +24,7 @@ function App() {
         <Achievements />
         <OurHistory />
         <MembershipBanner />
+        <Community />
         <Partners />
       </main>
       <Footer />
