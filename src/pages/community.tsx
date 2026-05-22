@@ -39,6 +39,12 @@ export default function Community() {
                 <h2 className="text-xl font-bold uppercase tracking-widest max-w-7xl text-gray-100">Clube e Comunidade</h2>
                 <div className="flex gap-5 overflow-y-auto pb-3 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-transparent hover:scrollbar-thumb-zinc-800">
                     {services.map((item, index) => (
+                    <div
+            key={index}
+            data-aos="fade-up"
+            data-aos-delay={index * 150}
+            className="shrink-0"
+          >
                         <PostCard
                         key={index}
                         image={item.image}
@@ -46,6 +52,7 @@ export default function Community() {
                         desc={item.desc}
                         date={item.date}
                         />
+                        </div>
                     ))}
                 </div>
             </div>

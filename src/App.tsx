@@ -10,8 +10,17 @@ import OurHistory from "./pages/ourHistory"
 import Community from "./pages/community"
 import Partners from "./pages/partners"
 import Footer from "./components/footer"
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500, // Duração da animação em milissegundos
+      once: true,    // Anima apenas uma vez ao rolar a página
+    });
+  }, []);
   return (
     <>
       <Header />

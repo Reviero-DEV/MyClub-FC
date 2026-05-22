@@ -19,7 +19,7 @@ export default function Stadium() {
     <section className="w-full bg-[#0a0a0a] text-white py-5">
       <div className="grid grid-cols-1 md:grid-cols-2 max-w-7xl gap-3 mx-auto items-center">
     
-        <div className="px-5">
+        <div  data-aos="fade-right" data-aos-delay="150" className="px-5">
           <div className="relative overflow-hidden rounded-xl border border-zinc-800 group">
             <img 
               src={imageStadium} 
@@ -30,7 +30,7 @@ export default function Stadium() {
           </div>
         </div>
 
-        <div className="p-5 flex flex-col justify-center h-full space-y-6">
+        <div  data-aos="fade-right" data-aos-delay="0" className="p-5 flex flex-col justify-center h-full space-y-6">
           
           <div className="space-y-2">
             <h2 className="text-3xl font-extrabold tracking-tight md:text-4xl text-white uppercase">

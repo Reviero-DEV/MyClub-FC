@@ -87,7 +87,7 @@ export default function MatchCenter() {
   }, []);
 
   return (
-    <section className="w-full py-5 md:py-7 text-white">
+    <section data-aos="fade-right" className="w-full py-5 md:py-7 text-white">
       <div className="mx-auto max-w-7xl px-5 flex flex-col gap-6 md:gap-8">
 
         <h2 className="text-xl md:text-2xl font-bold text-center uppercase tracking-wide">

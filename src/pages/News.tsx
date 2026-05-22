@@ -46,16 +46,24 @@ export default function News() {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-4 grid-cols-2 gap-5">
-        {news.map((item) => (
-          <PostCard
+      <div className="inset-0 flex gap-5 overflow-y-auto pb-3 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-transparent hover:scrollbar-thumb-zinc-800">
+        {news.map((item, index) => (
+          <div
             key={item.id}
-            title={item.title}
-            image={item.image}
-            desc={item.desc}
-            link={item.link}
-          />
+            data-aos="fade-up"
+            data-aos-delay={index * 150}
+            className="shrink-0"
+          >
+            <PostCard
+              key={item.id}
+              title={item.title}
+              image={item.image}
+              desc={item.desc}
+              link={item.link}
+            />
+          </div>
         ))}
+
       </div>
     </section>
   );

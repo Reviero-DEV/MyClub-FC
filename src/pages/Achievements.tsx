@@ -52,12 +52,18 @@ export default function Achievements() {
 
         <div className="grid sm:grid-flow-col pt-2 grid-rows-2 min-[1081px]:grid-rows-1 max-sm:grid-cols-2 gap-8">
           {conquistasClube.map((item, index) => (
+          <div
+            key={index}
+            data-aos="fade-up"
+            data-aos-delay={index * 50}
+          >
             <TabTrophies
               key={index}
               icon={item.icon}
               qty={item.qty}
               title={item.title}
             />
+            </div>
           ))}
         </div>
 

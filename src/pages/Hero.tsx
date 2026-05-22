@@ -12,12 +12,12 @@ export const Hero: React.FC = () => {
 
     >
       <div className="max-w-4xl mx-auto md:mx-0 relative z-10">
-        <h1 className="text-4xl md:text-6xl font-bold leading-tight text-white">
+        <h1 data-aos="fade-right" data-aos-delay="0" className="text-4xl md:text-6xl font-bold leading-tight text-white">
            Uma só voz. Um só<br />
           <span className="text-red-600"> coração</span>
         </h1>
 
-        <p className="mt-6 text-lg md:text-xl leading-relaxed max-w-2xl text-slate-200">
+        <p  data-aos="fade-right" data-aos-delay="200" className="mt-6 text-lg md:text-xl leading-relaxed max-w-2xl text-slate-200">
           A nossa força vem das arquibancadas. Junte-se a milhões de apaixonados, acompanhe as notícias oficiais em tempo real e mostre o seu orgulho de ser MyClub onde quer que você esteja.
         </p>
 

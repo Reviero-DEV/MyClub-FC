@@ -82,7 +82,8 @@ export default function ShoppingItems() {
           <div className="flex items-center max-md:pt-5 h-100 md:h-full w-full relative">
             <div className="inset-0 flex gap-5 overflow-y-auto pb-3 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-transparent hover:scrollbar-thumb-zinc-800">
               {listShoppingData.map((item, index) => (
-                <div key={index} className="w-65 md:w-70 shrink-0 snap-start h-full pb-2">
+                <div key={index} data-aos="fade-up"
+                  data-aos-delay={index * 100} className="w-65 md:w-70 shrink-0 snap-start h-full pb-2">
                   <CardShopping
                     image={item.image}
                     title={item.title}
