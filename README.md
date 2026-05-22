@@ -4,11 +4,14 @@ Uma Landing Page institucional moderna e imersiva desenvolvida para representar 
 
 ## 📸 Preview
 
-<div style="max-width: 100%; max-height: 400px; overflow-y: scroll; border: 1px solid #30363d; border-radius: 6px; background-color: #0d1117;">
-  <img src="./public/preview.png" alt="Preview completo do MyClub FC" style="width: 100%; display: block;" />
-</div>
+<details>
+  <summary>👁️ Clique aqui para abrir o print completo da página</summary>
+  <br />
+  <img src="./public/preview.png" alt="Preview completo do MyClub FC" width="100%" />
+</details>
 
-**Acesse o projeto online:** [myclub-fc.vercel.app](https://my-club-fc.vercel.app/)
+
+**Acesse o projeto online:** [MyClub-fc](https://my-club-fc.vercel.app/)
 
 ## ✨ Funcionalidades
 
