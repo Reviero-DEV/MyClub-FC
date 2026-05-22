@@ -53,7 +53,7 @@ export default function ShoppingItems() {
           <p className="text-zinc-400 text-sm hidden sm:block">Vista o manto, sinta a paixão.</p>
         </div>
 
-         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
 
           <div className="relative group overflow-hidden rounded-xl bg-zinc-900 border border-zinc-800 h-100 md:h-120 flex flex-col justify-end p-8">
             <div className="absolute inset-0 z-0">
