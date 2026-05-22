@@ -1,73 +1,67 @@
-# React + TypeScript + Vite
+# ⚽ MyClub FC - Landing Page Institucional
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma Landing Page institucional moderna e imersiva desenvolvida para representar digitalmente o **MyClub FC**, reunindo informações do clube, notícias, jogos, classificação, produtos oficiais e programas de relacionamento com torcedores.
 
-Currently, two official plugins are available:
+## 📸 Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<div style="max-width: 100%; max-height: 400px; overflow-y: scroll; border: 1px solid #30363d; border-radius: 6px; background-color: #0d1117;">
+  <img src="./public/preview.png" alt="Preview completo do MyClub FC" style="width: 100%; display: block;" />
+</div>
 
-## React Compiler
+**Acesse o projeto online:** [myclub-fc.vercel.app](https://my-club-fc.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Funcionalidades
 
-## Expanding the ESLint configuration
+- 🏠 **Hero Impactante:** Abertura com título estilizado e forte apelo emocional.
+- 📰 **Feed de Notícias:** Grid responsivo sobre futebol profissional, base e bastidores.
+- 📊 **Jogos e Tabela:** Exibição gráfica de confrontos e classificação atualizada.
+- 🛒 **Loja Oficial:** Vitrine de produtos em formato de carrossel para celulares.
+- 🎟️ **Sócio-Torcedor:** Seção focada na conversão e destaque dos planos de benefícios.
+- 🏆 **Galeria de Conquistas:** Espaço exclusivo exibindo os principais troféus do clube.
+- 🤝 **Patrocinadores:** Rodapé comercial com logos de marcas parceiras reais.
+- 📱 **Responsividade Total:** Layout adaptado perfeitamente de celulares a desktops.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tecnologias Utilizadas
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **React** (Componentização e estado)
+- **TypeScript** (Tipagem estática e segurança)
+- **Tailwind CSS** (Estilização rápida e Dark Mode)
+- **AOS (Animate On Scroll)** (Animações de entrada universais)
+- **React Icons** (Biblioteca de ícones)
+- **Vite** (Ferramenta de build rápida)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🎯 Objetivos do Projeto
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Simular um portal profissional para clubes de futebol modernos.
+- Aplicar boas práticas de UI/UX através do modo escuro com acentos vibrantes.
+- Praticar a componentização limpa e reutilização de código no React.
+- Consolidar conhecimentos práticos em TypeScript e design responsivo.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📚 Aprendizados Desenvolvidos
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- 🛒 **Carrossel Mobile:** Uso de `shrink-0` e `snap-start` no Tailwind para criar vitrines arrastáveis sem quebrar o layout.
+- 🎬 **Animações Eficientes:** Implementação do AOS com efeitos cascata calculados dinamicamente via `index * delay`.
+- 🏗️ **Refatoração Semântica:** Adequação de menus para criar um rodapé que faz sentido com o negócio do clube.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🔮 Melhorias Futuras
+
+- [ ] Integração com APIs reais de futebol para tabelas dinâmicas.
+- [ ] Implementação de Skeletons (telas de carregamento) usando Tailwind.
+- [ ] Painel administrativo para gerenciamento de notícias e produtos.
+- [ ] Sistema de carrinho e compra simulada na loja.
+
+## 🤝 Contribuições
+
+Sugestões, melhorias e feedbacks são sempre bem-vindos!
+
+## 📄 Licença
+
+Este projeto foi desenvolvido estritamente para fins de estudo e portfólio pessoal.
+
+---
+
+### 👨‍💻 Desenvolvido por
+
+**Neto Reviero**
+
+[LinkedIn](https://www.linkedin.com/in/neto-reviero/) • [GitHub](https://github.com/Reviero-DEV)
