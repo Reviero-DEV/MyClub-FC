@@ -1,14 +1,14 @@
 import Header from "./components/Header"
-import { Hero } from "./pages/Hero"
-import News from "./pages/News"
-import MembershipBanner from "./pages/MembershipBanner"
-import MatchCenter from "./pages/matchCenter"
-import ShoppingItems from "./pages/shopping"
-import Stadium from "./pages/infoStadium"
-import Achievements from "./pages/Achievements"
-import OurHistory from "./pages/ourHistory"
-import Community from "./pages/community"
-import Partners from "./pages/partners"
+import { Hero } from "./sections/Hero"
+import News from "./sections/News"
+import MembershipBanner from "./sections/MembershipBanner"
+import MatchCenter from "./sections/matchCenter"
+import ShoppingItems from "./sections/shopping"
+import Stadium from "./sections/infoStadium"
+import Achievements from "./sections/Achievements"
+import OurHistory from "./sections/ourHistory"
+import Community from "./sections/community"
+import Partners from "./sections/partners"
 import Footer from "./components/footer"
 import { useEffect } from 'react';
 import AOS from 'aos';
@@ -17,8 +17,8 @@ import 'aos/dist/aos.css';
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 1500, // Duração da animação em milissegundos
-      once: true,    // Anima apenas uma vez ao rolar a página
+      duration: 1500,
+      once: true,
     });
   }, []);
   return (
